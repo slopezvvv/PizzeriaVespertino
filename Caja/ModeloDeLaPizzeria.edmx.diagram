@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7224988864e3499a85c709b229b5a774" Name="Diagram1">
+        <EntityTypeShape EntityType="PizzeriaDBModel.Cajero" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaDBModel.Cliente" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaDBModel.Producto" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaDBModel.Repartidor" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaDBModel.Venta" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="PizzeriaDBModel.FK__Venta__idCajero__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="PizzeriaDBModel.FK__Venta__idCliente__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="PizzeriaDBModel.FK__Venta__idProduct__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="PizzeriaDBModel.FK__Venta__idReparti__778AC167" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
